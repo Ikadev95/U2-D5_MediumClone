@@ -8,14 +8,6 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Spectral", serif;
-}
 .content-width {
   padding: 0 8%;
 }
@@ -23,6 +15,7 @@ h1 {
   font-size: 6rem;
   margin-bottom: 23px;
   letter-spacing: -4px;
+  font-family: "Spectral", serif;
 }
 .hero p {
   font-size: 18px;
@@ -121,10 +114,11 @@ section{
     font-size: 12px;
     color: darkgrey;
 }
-.trendTitle{
+h4{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     display: inline-block;
+    color: rgb(84, 83, 83);
 }
 .sectionTr{
     border-bottom: 1px solid gainsboro;
@@ -132,17 +126,13 @@ section{
 .section2{
     display: flex;
     padding-block: 60px;
+    gap: 48px;
 }
 .articles-box{
     width: 60%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-}
-aside{
-    width: 40%;
-    height: 500px;
-    background-color: aquamarine;
 }
 .article{
     display: flex;
@@ -182,4 +172,30 @@ h2{
 .writer-cont p{
     font-size: 12px;
     font-weight: 500;
+}
+.span-container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.span-container img{
+    width: 14px;
+    height: auto;
+}
+aside{
+    width: 40%;
+    height: 500px;
+}
+.asideButton{
+    border-radius: 4px;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid gainsboro;
+    font-size: 12px;
+    margin: 4px 0;
+}
+.buttons-container{
+    margin-top: 8px;
+    padding-bottom: 24px;
+    border-bottom: gainsboro 1px solid;
 }
