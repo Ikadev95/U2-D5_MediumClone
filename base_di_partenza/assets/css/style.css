@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .content-width {
-  padding: 0 8%;
+  padding: 0 9%;
 }
 h1 {
   font-size: 6rem;
@@ -28,13 +28,16 @@ header {
   background-color: #ffc016;
 }
 nav {
+  background-color: #ffc016;
   display: flex;
   justify-content: center;
   border-bottom: black 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .navbar {
   display: flex;
-  position: sticky;
   width: 100vw;
   justify-content: space-between;
   padding-block: 16px;
@@ -126,7 +129,7 @@ h4{
 .section2{
     display: flex;
     padding-block: 60px;
-    gap: 48px;
+    gap: 68px;
 }
 .articles-box{
     width: 60%;
@@ -198,4 +201,15 @@ aside{
     margin-top: 8px;
     padding-bottom: 24px;
     border-bottom: gainsboro 1px solid;
+}
+.anchors-container{
+    margin-top: 20px;
+}
+.anchors-container a{
+    display: inline-block;
+    color: grey;
+    font-size: 12px;
+    margin-right: 24px;
+    text-decoration: none;
+    margin-bottom: 8px;
 }
