@@ -41,8 +41,8 @@ nav {
   width: 100vw;
   justify-content: space-between;
   padding-block: 8px;
-  background-color: transparent; 
-  transition: background-color 0.6s ease; 
+  background-color: transparent;
+  transition: background-color 0.6s ease;
 }
 .navbar-right {
   display: flex;
@@ -56,6 +56,13 @@ button {
   border: 0;
   border-radius: 28px;
   margin: 8px 0px;
+}
+.navbar button {
+  transition: background-color 0.6s ease;
+}
+
+.navbar-scrolled button {
+  background-color: #1a8917;
 }
 ul {
   display: flex;
@@ -78,172 +85,171 @@ nav li {
   position: absolute;
   right: 0;
   top: 0;
-
 }
 .hero button {
-    padding-inline: 40px;
-    padding-block: 8px;
-    font-size: 16px;
-  }
-section{
-    padding-block: 40px;
+  padding-inline: 40px;
+  padding-block: 8px;
+  font-size: 16px;
 }
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 16px;
+section {
+  padding-block: 40px;
 }
-.cardTrend{
-    display: flex;
-    padding-block: 16px;
-    gap: 16px;
-    width: 33.3%;
-    padding-right: 8px;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
 }
-.number{
-    font-weight: 600;
-    font-size: 28px;
-    color: #E6E7E7;
+.cardTrend {
+  display: flex;
+  padding-block: 16px;
+  gap: 16px;
+  width: 33.3%;
+  padding-right: 8px;
+}
+.number {
+  font-weight: 600;
+  font-size: 28px;
+  color: #e6e7e7;
 }
 
-.card1{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.card1 h3{
-    font-weight: 700;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.3;
+.card1 h3 {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
 }
 .card1 span {
-    font-weight: 400;
-    font-size: 12px;
-    color: darkgrey;
+  font-weight: 400;
+  font-size: 12px;
+  color: darkgrey;
 }
-h4{
-    font-weight: 600;
-    font-size: 12px;
-    display: inline-block;
-    color: rgb(84, 83, 83);
+h4 {
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(84, 83, 83);
 }
-.sectionTr{
-    border-bottom: 1px solid gainsboro;
+.sectionTr {
+  border-bottom: 1px solid gainsboro;
 }
-.TitleTr{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.TitleTr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.section2{
-    display: flex;
-    padding-block: 60px;
-    gap: 68px;
+.section2 {
+  display: flex;
+  padding-block: 60px;
+  gap: 68px;
 }
-.articles-box{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
+.articles-box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
-.article{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.article {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
-.article img{
-    height: 130px;
-    object-fit: cover;
+.article img {
+  height: 130px;
+  object-fit: cover;
 }
-.writer-cont img{
-    width: 22px;
-    height: inherit;
-    border-radius: 50%;
+.writer-cont img {
+  width: 22px;
+  height: inherit;
+  border-radius: 50%;
 }
-h2{
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.3;
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
 }
-.infoArticle p{
-    font-weight: 400;
-    font-size: 15px;
-    color: grey;
-    line-height: 1.3;
+.infoArticle p {
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  line-height: 1.3;
 }
-.infoArticle{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    justify-content: space-between;
-    width: 100%;
+.infoArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+  width: 100%;
 }
-.writer-cont{
-    display:flex;
-    align-items: center;
-    gap: 8px;
+.writer-cont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.writer-cont p{
-    font-size: 12px;
-    font-weight: 500;
+.writer-cont p {
+  font-size: 12px;
+  font-weight: 500;
 }
-.span-container{
-    display: flex;
-    align-items: center;
-    gap: 4px;
+.span-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
-.span-container img{
-    width: 14px;
-    height: auto;
+.span-container img {
+  width: 14px;
+  height: auto;
 }
-aside{
-    width: 40%;
-    height: 500px;
+aside {
+  width: 40%;
+  height: 500px;
 }
-.asideButton{
-    border-radius: 4px;
-    background-color: transparent;
-    color: grey;
-    border: 1px solid rgb(240, 239, 239);
-    font-size: 12px;
-    margin: 4px 0;
+.asideButton {
+  border-radius: 4px;
+  background-color: transparent;
+  color: grey;
+  border: 1px solid rgb(240, 239, 239);
+  font-size: 12px;
+  margin: 4px 0;
 }
-.buttons-container{
-    margin-top: 8px;
-    padding-bottom: 24px;
-    border-bottom: gainsboro 1px solid;
+.buttons-container {
+  margin-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: gainsboro 1px solid;
 }
-.anchors-container{
-    margin-top: 20px;
+.anchors-container {
+  margin-top: 20px;
 }
-.anchors-container a{
-    display: inline-block;
-    color: grey;
-    font-size: 12px;
-    margin-right: 24px;
-    text-decoration: none;
-    margin-bottom: 8px;
+.anchors-container a {
+  display: inline-block;
+  color: grey;
+  font-size: 12px;
+  margin-right: 24px;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
-.spanWrap .bookmark{
-    height: 24px;
+.spanWrap .bookmark {
+  height: 24px;
 }
-.spanWrap{
-    display: flex;
-    justify-content: space-between;
+.spanWrap {
+  display: flex;
+  justify-content: space-between;
 }
-.chip{
-    background-color: rgb(232, 231, 231);
-    padding: 4px 8px;
-    border-radius: 20px;
+.chip {
+  background-color: rgb(232, 231, 231);
+  padding: 4px 8px;
+  border-radius: 20px;
 }
-.span-container span{
-    color: gray;
-    font-size: 12px;
+.span-container span {
+  color: gray;
+  font-size: 12px;
 }
 
 .navbar-scrolled {
-    background-color: white; 
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); 
-  }
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
