@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spectral", serif;
+}
+.content-width {
+  padding: 0 8%;
+}
+h1 {
+  font-size: 6rem;
+  margin-bottom: 23px;
+  letter-spacing: -4px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 23px;
+  width: 300px;
+  line-height: 1.2;
+}
+
+header {
+  background-color: #ffc016;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: black 1px solid;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+  width: 100vw;
+  justify-content: space-between;
+  padding-block: 16px;
+}
+.navbar-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 16px;
+  margin: 8px 0px;
+}
+ul {
+  display: flex;
+  gap: 12px;
+  height: fit-content;
+}
+nav li {
+  font-size: 14px;
+  list-style-type: none;
+}
+.hero {
+  position: relative;
+}
+.hero-wrap {
+  padding-block: 80px;
+  border-bottom: 1px solid black;
+}
+.hero svg {
+  max-width: 500px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+.hero button {
+    padding-inline: 32px;
+    font-size: 16px;
+  }
+section{
+    padding-block: 40px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.cardTrend{
+    display: flex;
+    padding-block: 16px;
+    gap: 16px;
+    width: 33.3%;
+}
+.number{
+    font-weight: 600;
+    font-size: 26px;
+    color: #E6E7E7;
+}
+.cardTrend img{
+    width: 24px;
+}
+.writer-cont{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.writer-cont p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card1 h3{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.card1 span {
+    font-weight: 400;
+    font-size: 12px;
+    color: darkgrey;
+}
+.trendTitle{
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+}
+.sectionTr{
+    border-bottom: 1px solid gainsboro;
+}
+.section2{
+    display: flex;
+}
+.articles-box{
+    height: 500px;
+    width: 60%;
+    background-color: rgb(124, 84, 31);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+aside{
+    width: 40%;
+    height: 500px;
+    background-color: aquamarine;
+}
+.article{
+    background-color: #E6E7E7;
+    display: flex;
+    justify-content: space-between;
+}
+.article img{
+    width: 30%;
+}
