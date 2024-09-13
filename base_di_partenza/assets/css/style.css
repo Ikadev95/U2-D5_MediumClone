@@ -105,18 +105,7 @@ section{
     font-size: 26px;
     color: #E6E7E7;
 }
-.cardTrend img{
-    width: 24px;
-}
-.writer-cont{
-    display:flex;
-    align-items: center;
-    gap: 8px;
-}
-.writer-cont p{
-    font-size: 12px;
-    font-weight: 500;
-}
+
 .card1{
     display: flex;
     flex-direction: column;
@@ -142,11 +131,10 @@ section{
 }
 .section2{
     display: flex;
+    padding-block: 60px;
 }
 .articles-box{
-    height: 500px;
     width: 60%;
-    background-color: rgb(124, 84, 31);
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -157,10 +145,41 @@ aside{
     background-color: aquamarine;
 }
 .article{
-    background-color: #E6E7E7;
     display: flex;
     justify-content: space-between;
+    gap: 12px;
 }
 .article img{
-    width: 30%;
+    height: 130px;
+    object-fit: cover;
+}
+.writer-cont img{
+    width: 24px;
+    height: inherit;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.infoArticle p{
+    font-weight: 400;
+    font-size: 15px;
+    color: grey;
+}
+.infoArticle{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+    min-width: 65%;
+}
+.writer-cont{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.writer-cont p{
+    font-size: 12px;
+    font-weight: 500;
 }
