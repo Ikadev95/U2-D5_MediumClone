@@ -296,6 +296,9 @@ aside {
    }
    aside{
     width: 40%;
+    position: sticky;
+    top:100px;
+    height: fit-content;
    }
    .hero svg {
     right: 0;
